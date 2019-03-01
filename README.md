@@ -4,9 +4,11 @@ Dlib face recognition network is a nerual network trained by Davis King (https:/
 
 Please see more details about this network here at this link - https://github.com/davisking/dlib-models
 
+My main driver for this work to better understand the architecture of this network as well as the dlib library.
+
 ## Objective
 
-This repository provides set of scripts to convert dlib's face recognition network into other formats such as 
+This repository provides set of scripts to convert dlib's face recognition network into other formats such as:
 
 - Keras hd5
 - Tensorflow's saved model and frozen graph
@@ -74,10 +76,21 @@ At the root of the repository you should have -
 
 - Frozen graph -  dlib_face_recognition_resnet_model_v1.pb
 
-## Analysis 
+## Analysis
 
-There is also a juypter notebook that provides :
+There is also a juypter [dlib_analysis.ipynb](notebook) that provides :
 
 - Analysis of the network
 
+- Description of the keras layers/summary/weight etc
+
 - Performs inference using the converted keras model
+
+## Acknowledgements
+
+The main person to thank here is Davis King, the creator of dlib [https://github.com/davisking/dlib] and trainer of this recognition network. I discovered
+his repository last year and am extemely impressed by his work. Not only the quality of what he produces is at the highest level but the regular support he provides
+to the users of his library is commendable. Thanks Davis!
+
+Another person I want to thank is Vincent Muller (awesomedudewhohacks)[https://github.com/justadudewhohacks/face-api.js] whose work on face-api.js showed me that it was possible to
+extract weights and reuse them. In the end it was the grunt work but doable and the fact that someone had done it already made sure that it was possible. Thanks Vincent !
