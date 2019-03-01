@@ -49,7 +49,7 @@ If you are able to compile this tool `xml_generator` then you would have `build/
 
 You should now have dlib_face_recognition_resnet_model_v1.xml file in the build directory.
 
-## Step 3
+### Step 3
 
 Time for the final convertion.
 
@@ -66,4 +66,18 @@ pip install xmltodict
 python main.py --xml-weights xml_generator/build/dlib_face_recognition_resnet_model_v1.xml
 ```
 
-At the root of the repository you should have 
+At the root of the repository you should have -
+
+- Keras format - dlib_face_recognition_resnet_model_v1.h5
+
+- A folder named `exported` where saved model is saved !
+
+- Frozen graph -  dlib_face_recognition_resnet_model_v1.pb
+
+## Analysis 
+
+There is also a juypter notebook that provides :
+
+- Analysis of the network
+
+- Performs inference using the converted keras model
