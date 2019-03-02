@@ -92,4 +92,4 @@ The main person to thank here is Davis King, the creator of dlib [https://github
 his repository last year and am extemely impressed by his work. Not only the quality of what he produces is at the highest level but the regular support he provides
 to the users of his library is commendable. Thanks Davis!
 
-Another person I want to thank is [Vincent Muhler (awesomedudethathacks)](https://github.com/justadudewhohacks/face-api.js) whose work on face-api.js showed me that it was possible to extract weights and reuse them. In the end it was just the grunt work but doable and the fact that someone had done it already made sure that it was possible. Thanks Vincent for the leading way !
+Another person I want to thank is [Vincent Muhler (awesomedudethathacks)](https://github.com/justadudewhohacks/face-api.js) whose work on face-api.js showed me that it was possible to extract weights and reuse them. In the end it was just the grunt work but doable and the fact that someone had done it already made sure that it was possible. Thanks Vincent for leading the way !
