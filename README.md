@@ -1,10 +1,10 @@
 # Dlib to tensorflow/keras converter
 
-Dlib face recognition network is a nerual network trained by Davis King (https://github.com/davisking/dlib) using his C++ library/toolkit.
+Dlib face recognition network is a neural network trained by Davis King (https://github.com/davisking/dlib) using his C++ library/toolkit.
 
 Please see more details about this network here at this link - https://github.com/davisking/dlib-models
 
-My main driver for this work to better understand the architecture of this network as well as the dlib library.
+My main driver for this work was to better understand the architecture of this network as well as the dlib library.
 
 ## Objective
 
@@ -18,13 +18,13 @@ This repository provides set of scripts to convert dlib's face recognition netwo
 
 ### Step 1
 
-The weights for the model are in stored in the binary fomat (.dat file).
+The weights for the model provided by dlib are in stored in the binary fomat (.dat file).
 
 Here is the location from where you can download it - http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2 
 
 ### Step 2
 
-Dlib toolkit provides a method to take the serialized weights and generate the XML from it. This is done using C++ so I am providing a
+Dlib toolkit provides a method to take the serialized weights file and convert to an XML file. This is done using C++ so I am providing a
 tool called `xml_generator`. All it really does is that it defines the network in C++ (following the example from dlib), loads
 the weights and then serialize it.
 
